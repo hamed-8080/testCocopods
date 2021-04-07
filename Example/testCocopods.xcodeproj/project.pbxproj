@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0DD6329B6621679A06F588E3 /* Pods-testCocopods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocopods_Example.debug.xcconfig"; path = "Target Support Files/Pods-testCocopods_Example/Pods-testCocopods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B8F9879DC8D4F3CCA06FB0E /* Pods-testCocopods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocopods_Tests.release.xcconfig"; path = "Target Support Files/Pods-testCocopods_Tests/Pods-testCocopods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C1670F00977985096CA6B2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C1670F00977985096CA6B2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* testCocopods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCocopods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* testCocopods_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCocopods_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		68C0DE98FE87BF0D4094789C /* testCocopods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testCocopods.podspec; path = ../testCocopods.podspec; sourceTree = "<group>"; };
+		68C0DE98FE87BF0D4094789C /* testCocopods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testCocopods.podspec; path = ../testCocopods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B8A4B0C9B3C7092C60970B7 /* Pods_testCocopods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocopods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8468CAE2F7711BFD480A599A /* Pods-testCocopods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocopods_Example.release.xcconfig"; path = "Target Support Files/Pods-testCocopods_Example/Pods-testCocopods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A71CACC3D2A78DDCC9A893B /* Pods-testCocopods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocopods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testCocopods_Tests/Pods-testCocopods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD7C1AE980CF56E808E2BA88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD7C1AE980CF56E808E2BA88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EC7719263F2F4EFB2602BDB2 /* Pods_testCocopods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocopods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				9A71CACC3D2A78DDCC9A893B /* Pods-testCocopods_Tests.debug.xcconfig */,
 				5B8F9879DC8D4F3CCA06FB0E /* Pods-testCocopods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
