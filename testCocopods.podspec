@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "description of testcocopods"
-  s.homepage         = 'https://github.com/hamed8080/testCocopods'
+  s.homepage         = 'https://github.com/hamed-8080/testCocopods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'hamed8080@gmail.com' => 'hamed8080@gmail.com' }
+  s.author           = { 'h.hosseini.co@gmail.com' => 'h.hosseini.co@gmail.com' }
   s.source           = { :git => 'https://github.com/hamed8080/testCocopods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_versions = "4.0"
